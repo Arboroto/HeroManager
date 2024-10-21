@@ -1,0 +1,6 @@
+<h1 mat-dialog-title>¡CUIDADO!</h1>
+<mat-dialog-content>¿Estás seguro de que quieres eliminar este héroe?</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="true">Continuar</button>
+    <button mat-button mat-dialog-close (click)="cancel()">Cancelar</button>
+</mat-dialog-actions>
