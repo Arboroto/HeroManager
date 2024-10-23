@@ -1,0 +1,29 @@
+.form-container{
+    background-color: rgba(255, 255, 255, 0.25);
+    h1{
+        text-align: center;
+        font-size: 3em;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    
+    form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    
+        mat-form-field:nth-child(-n+6) {
+            grid-column: span 1; /* Ocupa una columna */
+          }
+          
+          mat-form-field:nth-child(n+7) {
+            grid-column: span 2; /* Ocupa dos columnas */
+          }
+          button:nth-child(n+8) {
+            grid-column: span 2; /* Ocupa dos columnas */
+          }
+    }
+}
+
