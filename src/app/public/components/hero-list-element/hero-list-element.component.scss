@@ -1,0 +1,28 @@
+.hero-list-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    img{
+        min-width: 100px !important;
+        width: 100px;
+        height: 100px;
+        object-fit:cover; 
+        object-position: top;
+    }
+
+    table{
+        width: 100%;
+        thead td{
+            font-weight: 700;
+            border-bottom: 1px solid black;
+        }
+        tbody td{
+            border-left: 1px solid black;
+        }
+        td{
+            width: 135px;
+            padding-left: 10px;
+        }
+    }
+}

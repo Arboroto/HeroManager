@@ -1,0 +1,33 @@
+<mat-card class="hero-list-element">
+    <img mat-card-image [src]="hero.imgUrl" alt="Imagen del héroe" loading="lazy">
+
+    <table>
+        <thead>
+            <tr>
+                <td>Superhéroe</td>
+                <td>Nombre</td>
+                <td>Nacimiento</td>
+                <td>Raza</td>
+                <td>Poder</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p>{{hero.name | capitalizeFirstLetter}}</p></td>
+                <td><p>{{hero.real_name}}</p></td>
+                <td><p>{{hero.birth_date}}</p></td>
+                <td><p>{{hero.race}}</p></td>
+                <td><p>{{hero.power}}</p></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <mat-card-actions>
+        <button (click)="editHero(hero)" mat-fab color="primary" aria-label="edit button">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button (click)="openDialog()" mat-fab color="secondary" aria-label="delete button">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </mat-card-actions>
+</mat-card>

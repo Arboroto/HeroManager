@@ -1,0 +1,18 @@
+.hero{
+    height: 500px;
+    mat-card-content{
+        overflow: auto;
+        padding: 16px 16px !important;
+    }
+
+    .flex1{
+        flex: 1;
+    }
+
+    img{
+        width: auto;
+        object-fit: cover;
+        object-position: top;
+        height: 250px;
+    }
+}
