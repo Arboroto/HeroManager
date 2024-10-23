@@ -11,7 +11,8 @@ import { HeaderComponent } from './core/shared/components/header/header.componen
     CommonModule,
     RouterOutlet,
     FooterComponent,
-    HeaderComponent],
+    HeaderComponent
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

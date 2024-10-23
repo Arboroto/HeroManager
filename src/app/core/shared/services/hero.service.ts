@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable, of, throwError } from 'rxjs';
-import { catchError, delay, finalize, map } from 'rxjs/operators';
-import { Hero } from '../../models/hero.interface';
-import { HttpClient } from '@angular/common/http';
-import { CustomLoaderService } from './custom-loader.service';
+import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { BehaviorSubject, Observable, of, delay, finalize, map, catchError, throwError } from "rxjs";
+import { Hero } from "../../models/hero.interface";
+import { CustomLoaderService } from "./custom-loader.service";
+
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +23,7 @@ export class HeroService {
   }
 
   callLoader(): Observable<any> {
-    return this.http.get<any>(this.API_URL);
+    return of({}); // this.http.get<any>(this.API_URL);
   }
 
   //#region ENDPOINTS

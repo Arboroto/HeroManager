@@ -1,16 +1,32 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { MatDialog } from '@angular/material/dialog';
-import { ActivatedRoute, ActivatedRouteSnapshot, Router } from '@angular/router';
-import { finalize, map, mergeMap, switchMap, tap } from 'rxjs';
-import { Hero } from 'src/app/core/models/hero.interface';
-import { DefaultModalComponent } from 'src/app/core/shared/components/default-modal/default-modal.component';
-import { HeroService } from 'src/app/core/shared/services/hero.service';
+import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { Router, RouterModule } from '@angular/router';
+import { Hero } from '../../../core/models/hero.interface';
+import { DefaultModalComponent } from '../../../core/shared/components/default-modal/default-modal.component';
+import { HeroService } from '../../../core/shared/services/hero.service';
+import { MatButtonModule } from '@angular/material/button';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+
 
 @Component({
   selector: 'app-create-edit-hero',
   templateUrl: './create-edit-hero.component.html',
-  styleUrls: ['./create-edit-hero.component.scss']
+  styleUrls: ['./create-edit-hero.component.scss'],
+  standalone: true,
+  imports: [
+    ReactiveFormsModule, 
+    RouterModule, 
+    MatDialogModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatButtonModule 
+  ]
 })
 export class CreateEditHeroComponent {
     public id!: number;

@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
-import { MatDialogRef } from '@angular/material/dialog';
+import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-default-modal',
   templateUrl: './default-modal.component.html',
   styleUrls: ['./default-modal.component.scss'],
-  standalone: true
+  standalone: true,
+  imports: [
+    MatDialogModule
+  ]
 })
 export class DefaultModalComponent {
   constructor(public dialogRef: MatDialogRef<DefaultModalComponent>){}
