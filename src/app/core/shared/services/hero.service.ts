@@ -23,7 +23,7 @@ export class HeroService {
   }
 
   callLoader(): Observable<any> {
-    return of({}); // this.http.get<any>(this.API_URL);
+    return this.http.get<any>(this.API_URL);
   }
 
   //#region ENDPOINTS

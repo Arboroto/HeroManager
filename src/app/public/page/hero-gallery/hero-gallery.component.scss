@@ -1,0 +1,48 @@
+.galleryContainer{
+    overflow-y: auto;
+    max-height: 80vh;
+    //padding: 2% 2%;
+    .utilities{
+        position: absolute;
+        right: 25px;
+        top: 5px;
+        z-index: 1;
+        display: flex;
+        align-items: flex-end;
+        gap: 0px;
+        flex-direction: column-reverse;
+        .searchInput{
+            margin-bottom: -10px;
+        }
+    }
+}
+.heroList{
+    display: grid;
+    gap:5px;
+    padding: 2% 2%;
+    >*{
+        box-shadow: 6px 6px 2px 0px black;
+    }
+}
+.heroGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 2% 2%;
+    >*{
+        box-shadow: 6px 6px 2px 0px black;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .heroGrid{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heroGrid{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}

@@ -1,0 +1,29 @@
+<div class="galleryContainer">
+    <div class="utilities">
+        <mat-button-toggle-group #group="matButtonToggleGroup" value="list">
+            <mat-button-toggle value="grid" aria-label="Grid View">
+              <mat-icon>grid_view</mat-icon>
+            </mat-button-toggle>
+            <mat-button-toggle value="list" aria-label="List view">
+              <mat-icon>view_list</mat-icon>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+
+        <mat-form-field class="searchInput">
+            <mat-label>{{'Busca a tu héroe' | capitalizeWord}}</mat-label>
+            <input matInput type="text" [value]="value | capitalizeFirstLetter" [(ngModel)]="value">
+        </mat-form-field>
+    </div>
+    
+      
+      
+      
+      <div *ngIf="group.value === 'grid'" class="heroGrid">    
+          <app-hero-card *ngFor="let h of heroes | search: value" [hero]="h"></app-hero-card>
+      </div>
+      
+      <div *ngIf="group.value === 'list'" class="heroList">
+          <app-hero-list-element *ngFor="let h of heroes | search: value" [hero]="h"></app-hero-list-element>    
+      </div>
+</div>
+

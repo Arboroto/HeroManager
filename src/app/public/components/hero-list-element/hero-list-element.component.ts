@@ -4,11 +4,22 @@ import { Router } from '@angular/router';
 import { Hero } from '../../../core/models/hero.interface';
 import { ConfirmModalComponent } from '../../../core/shared/components/confirm-modal/confirm-modal.component';
 import { HeroService } from '../../../core/shared/services/hero.service';
+import { CommonModule } from '@angular/common';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { CapitalizeFirstLetterPipe } from '../../../core/shared/pipes/capitalize-first-letter.pipe';
 
 @Component({
   selector: 'app-hero-list-element',
   templateUrl: './hero-list-element.component.html',
-  styleUrls: ['./hero-list-element.component.scss']
+  styleUrls: ['./hero-list-element.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    MatCardModule,
+    MatIconModule,
+    CapitalizeFirstLetterPipe
+  ]
 })
 export class HeroListElementComponent {
 

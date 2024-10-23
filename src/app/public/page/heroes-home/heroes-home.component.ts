@@ -3,6 +3,7 @@ import { HeroService } from '../../../core/shared/services/hero.service';
 import { ToastService } from '../../../core/shared/services/toast.service';
 import { CommonModule } from '@angular/common'; 
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-heroes-home',
@@ -11,7 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
   standalone: true,
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule 
   ]
 })
 export class HeroesHomeComponent {

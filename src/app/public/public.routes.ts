@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { PublicComponent } from './public.component';
 import { CreateEditHeroComponent } from './page/create-edit-hero/create-edit-hero.component';
 import { HeroesHomeComponent } from './page/heroes-home/heroes-home.component';
+import { HeroGalleryComponent } from './page/hero-gallery/hero-gallery.component';
 
 export const PUBLIC_ROUTES: Routes = [
   {
@@ -16,6 +17,10 @@ export const PUBLIC_ROUTES: Routes = [
         {
           path: 'home',
           component: HeroesHomeComponent
+        },
+        {
+            path: 'explore',
+            component: HeroGalleryComponent
         },
         {
           path: 'form/:id',
