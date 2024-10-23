@@ -23,7 +23,6 @@ import { MatFormField } from '@angular/material/form-field';
     MatIconModule,
     MatButtonModule,
     MatButtonToggle,
-    MatCardModule,
     MatCardActions,
     MatFormField,
     CapitalizeFirstLetterPipe

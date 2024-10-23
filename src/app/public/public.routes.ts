@@ -10,9 +10,9 @@ export const PUBLIC_ROUTES: Routes = [
     component: PublicComponent,
     children: [
         {
-          path: '',
-          redirectTo: 'home',
-          pathMatch: 'full'
+            path: '',
+            redirectTo: 'home',
+            pathMatch: 'full'
         },
         {
           path: 'home',
