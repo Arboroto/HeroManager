@@ -4,6 +4,8 @@ import { ToastService } from '../../../core/shared/services/toast.service';
 import { CommonModule } from '@angular/common'; 
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { CustomLoaderComponent } from '../../../core/shared/components/custom-loader/custom-loader.component';
+import { CustomLoaderService } from '../../../core/shared/services/custom-loader.service';
 
 @Component({
   selector: 'app-heroes-home',
@@ -19,14 +21,17 @@ import { RouterModule } from '@angular/router';
 export class HeroesHomeComponent {
   constructor(
    public heroService: HeroService,
-   public toastService: ToastService
+   public toastService: ToastService,
+   public loaderService: CustomLoaderService
   ) {}
 
   ngOnInit(): void {
   }
 
   testInterceptor() {
+    this.loaderService.show();
     this.heroService.callLoader().subscribe(res => {
+      this.loaderService.hide();
       this.toastService.show(res.fact, 5000);
    });
   }

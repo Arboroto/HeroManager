@@ -13,6 +13,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { FormsModule } from '@angular/forms';
 import { CapitalizeFirstLetterPipe } from '../../../core/shared/pipes/capitalize-first-letter.pipe';
 import { CapitalizeWordPipe } from '../../../core/shared/pipes/capitalize-word.pipe';
+import { MatInputModule } from '@angular/material/input';
 
 @Component({
   selector: 'app-hero-gallery',
@@ -24,6 +25,7 @@ import { CapitalizeWordPipe } from '../../../core/shared/pipes/capitalize-word.p
     FormsModule,
     MatButtonModule,
     MatFormField,
+    MatInputModule, 
     MatLabel,
     MatIconModule,
     MatButtonToggleModule,

@@ -16,7 +16,6 @@ export class LoaderInterceptor implements HttpInterceptor {
   // en un caso donde se utilizase un servicio con endpoints reales, sería completamente funcional.
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     this.loaderService.show();
-
     return next.handle(req).pipe(
       finalize(() => this.loaderService.hide())
     );

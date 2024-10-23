@@ -1,5 +1,5 @@
 .form-container{
-    background-color: rgba(255, 255, 255, 0.25);
+  padding: 50px;
     h1{
         text-align: center;
         font-size: 3em;
@@ -15,14 +15,14 @@
         padding: 20px;
     
         mat-form-field:nth-child(-n+6) {
-            grid-column: span 1; /* Ocupa una columna */
+            grid-column: span 1; 
           }
           
           mat-form-field:nth-child(n+7) {
-            grid-column: span 2; /* Ocupa dos columnas */
+            grid-column: span 2;
           }
           button:nth-child(n+8) {
-            grid-column: span 2; /* Ocupa dos columnas */
+            grid-column: span 2;
           }
     }
 }

@@ -7,6 +7,7 @@ import { HeroService } from '../../../core/shared/services/hero.service';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatIcon } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-hero-card',
@@ -16,7 +17,8 @@ import { MatIcon } from '@angular/material/icon';
   imports: [
     CommonModule,
     MatCardModule,
-    MatIcon
+    MatIcon,
+    MatButtonModule
   ]
 })
 export class HeroCardComponent {

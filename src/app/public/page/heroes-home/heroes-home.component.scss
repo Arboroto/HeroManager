@@ -43,21 +43,27 @@ main{
   }
 
   .superLoader{
-    background-color: $color-light;
-    width: 80%;
-    color: $color-text;
+    background-blend-mode: multiply;
+    background-image: url('/assets/catWman.jpg'); // Ruta relativa a la carpeta 'assets'
+    background-size: cover; 
+    background-position: center;
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    height: 200px;
+    width: 96%;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 6px 6px 2px 0px black;
     p{
-        margin: 0px !important;
-        font-size: x-large;
+      margin: 0px !important;
+      font-size: 3rem;
+      font-weight: 900;
     }
     
   }
 
   .superLoader:hover{
     background-color: $color-accent;
-    cursor: pointer;
   }
   

@@ -5,9 +5,12 @@ import { Hero } from '../../../core/models/hero.interface';
 import { ConfirmModalComponent } from '../../../core/shared/components/confirm-modal/confirm-modal.component';
 import { HeroService } from '../../../core/shared/services/hero.service';
 import { CommonModule } from '@angular/common';
-import { MatCardModule } from '@angular/material/card';
+import { MatCardActions, MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { CapitalizeFirstLetterPipe } from '../../../core/shared/pipes/capitalize-first-letter.pipe';
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggle } from '@angular/material/button-toggle';
+import { MatFormField } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-hero-list-element',
@@ -18,6 +21,11 @@ import { CapitalizeFirstLetterPipe } from '../../../core/shared/pipes/capitalize
     CommonModule,
     MatCardModule,
     MatIconModule,
+    MatButtonModule,
+    MatButtonToggle,
+    MatCardModule,
+    MatCardActions,
+    MatFormField,
     CapitalizeFirstLetterPipe
   ]
 })
