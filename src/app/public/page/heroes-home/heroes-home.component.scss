@@ -1,0 +1,69 @@
+@import '../../../core/shared/theme/colors';
+main{
+    text-align: center;
+}
+  
+  .landing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 2% 2%;
+  }
+  
+  .hero {
+    box-shadow: 6px 6px 2px 0px black;
+    background-color: $color-light;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .hero:hover{
+    background-color: $color-accent;
+    cursor: pointer;
+  }
+  
+  .hero img {
+    width: auto;
+    object-fit: cover;
+    object-position: top;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  .hero h3 {
+    font-size: 34px;
+    margin-top: 10px;
+  }
+  
+  .hero p {
+    padding:5px ;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .superLoader{
+    background-blend-mode: multiply;
+    background-image: url('/assets/catWman.jpg');
+    background-size: cover; 
+    background-position: center;
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    height: 200px;
+    width: 96%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 6px 6px 2px 0px black;
+    p{
+      margin: 0px !important;
+      font-size: 3rem;
+      font-weight: 900;
+    }
+    
+  }
+
+  .superLoader:hover{
+    background-color: $color-accent;
+  }
+  

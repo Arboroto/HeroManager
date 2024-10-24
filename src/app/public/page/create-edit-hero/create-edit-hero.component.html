@@ -1,0 +1,34 @@
+<div class="form-container">
+    <h1>{{id !== undefined ? "EDITA UN HÉROE" : "REGISTRA UN HÉROE"}}</h1>
+    <form [formGroup]="heroForm" (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input matInput formControlName="name" placeholder="Nombre del héroe">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput formControlName="real_name" placeholder="Nombre real">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput formControlName="gender" placeholder="Género">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput formControlName="race" placeholder="Raza">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput formControlName="birth_date" placeholder="Fecha de nacimiento" [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput formControlName="power" placeholder="Poder">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput formControlName="imgUrl" placeholder="URL de la imagen">
+      </mat-form-field>
+      <mat-form-field>
+        <textarea matInput formControlName="description" placeholder="Descripción"></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit" >Enviar</button><!-- [disabled]="!heroForm.valid" -->
+    </form>    
+</div>
+
+  

@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Superman",
+    "real_name": "Clark Kent",
+    "gender": "Masculino",
+    "race": "Kryptoniano",
+    "birth_date": "05-08-1998",
+    "power": "Super fuerza",
+    "imgUrl": "https://images.unsplash.com/photo-1558679908-541bcf1249ff?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Superman, Clark Kent en su identidad secreta, posee habilidades sobrehumanas como fuerza increíble, velocidad, vuelo, invulnerabilidad y visión de rayos X, utiliza estos poderes para combatir el mal y proteger a los inocentes. Su debilidad es la kryptonita, un mineral de su planeta natal que puede debilitarlo y ser letal. Trabaja como periodista en el Daily Planet de Metrópolis."
+  },
+  {
+    "id": 2,
+    "name": "Batman",
+    "real_name": "Bruce Wayne",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "06/10/1975",
+    "power": "Super intelecto y artes marciales.",
+    "imgUrl": "https://images.pexels.com/photos/12966795/pexels-photo-12966795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Heredero de la fortuna Wayne, Bruce se convirtió en Batman para combatir el crimen en Gotham City después de presenciar el asesinato de sus padres cuando era niño. Utiliza su riqueza para equiparse con tecnología de punta y entrenar en diversas artes marciales."
+  },
+  {
+    "id": 3,
+    "name": "Wonder Woman",
+    "real_name": "Diana Prince",
+    "gender": "Femenino",
+    "race": "Amazona",
+    "birth_date": "09/22/1941",
+    "power": "Super strength, Flight",
+    "imgUrl": "https://images.pexels.com/photos/3180273/pexels-photo-3180273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Princesa de las Amazonas de Themyscira, Wonder Woman es una guerrera poderosa con habilidades otorgadas por los dioses. Utiliza su lazo de la verdad y brazaletes a prueba de balas para establecer la paz y la justicia."
+  },
+  {
+    "id": 4,
+    "name": "Spider-Man",
+    "real_name": "Peter Parker",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "08/15/1996",
+    "power": "Spider sense, Wall-crawling",
+    "imgUrl": "https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Tras ser picado por una araña radiactiva, Peter Parker adquirió habilidades arácnidas que incluyen adherirse a las paredes, una agilidad sobrehumana y un 'sentido arácnido' que le alerta del peligro."
+  },
+  {
+    "id": 5,
+    "name": "The Flash",
+    "real_name": "Barry Allen",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "03/14/1989",
+    "power": "Super speed",
+    "imgUrl": "https://i.pinimg.com/564x/95/23/6e/95236e5a9d0a00ce670a44357f541d6d.jpg",
+    "description": "Barry Allen, conocido como The Flash, tiene la habilidad de moverse a velocidades sobrehumanas. Trabaja como científico forense y utiliza su velocidad para combatir criminales y otros metahumanos."
+  },
+  {
+    "id": 6,
+    "name": "Iron Man",
+    "real_name": "Tony Stark",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "05/29/1970",
+    "power": "Powered armor suit",
+    "imgUrl": "https://i.pinimg.com/564x/c2/a0/33/c2a0337b4f31d857df60bcada1f5dd50.jpg",
+    "description": "Genio inventor y multimillonario, Tony Stark se convirtió en Iron Man después de construir una armadura mecánica avanzada para escapar del cautiverio. Stark utiliza su armadura para proteger el mundo como parte de los Avengers."
+  },
+  {
+    "id": 7,
+    "name": "Black Widow",
+    "real_name": "Natasha Romanoff",
+    "gender": "Femenino",
+    "race": "Humano",
+    "birth_date": "12/03/1984",
+    "power": "Espionage, Martial Arts",
+    "imgUrl": "https://i.pinimg.com/736x/43/08/da/4308daca2908e97466687855cdefcc69.jpg",
+    "description": "Antigua espía de la KGB, Natasha Romanoff es una de los Avengers y utiliza sus habilidades en espionaje y combate para enfrentar a diversos enemigos."
+  },
+  {
+    "id": 8,
+    "name": "Hulk",
+    "real_name": "Bruce Banner",
+    "gender": "Masculino",
+    "race": "Humano mutado",
+    "birth_date": "12/18/1969",
+    "power": "Super strength, Regeneration",
+    "imgUrl": "https://i.pinimg.com/736x/cb/62/02/cb6202b7b791a8f05183185b6dcc7e20.jpg",
+    "description": "Tras ser expuesto a altos niveles de radiación gamma durante un experimento, el Dr. Bruce Banner se transforma en Hulk bajo estrés emocional, obteniendo fuerza y regeneración casi ilimitadas."
+  },
+  {
+    "id": 9,
+    "name": "Thor",
+    "real_name": "Thor Odinson",
+    "gender": "Masculino",
+    "race": "Asgardiano",
+    "birth_date": "Desconocido",
+    "power": "God-like strength, Thunder manipulation",
+    "imgUrl": "https://i.pinimg.com/564x/5e/65/5b/5e655bf78529635e95e53fc39a81a98b.jpg",
+    "description": "Dios del Trueno, Thor es un poderoso guerrero asgardiano y miembro de los Avengers. Utiliza su martillo, Mjolnir, para controlar los truenos y volar."
+  },
+  {
+    "id": 10,
+    "name": "Captain America",
+    "real_name": "Steve Rogers",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "07/04/1918",
+    "power": "Enhanced strength, Agility",
+    "imgUrl": "https://i.pinimg.com/564x/49/27/ee/4927ee7ccfb4c53b7392a8ff86bc3bc9.jpg",
+    "description": "Steve Rogers fue transformado en el super soldado Captain America durante la Segunda Guerra Mundial mediante un suero experimental. Utiliza su escudo indestructible tanto defensiva como ofensivamente."
+  },
+  {
+    "id": 11,
+    "name": "Aquaman",
+    "real_name": "Arthur Curry",
+    "gender": "Masculino",
+    "race": "Atlante",
+    "birth_date": "01/29/1986",
+    "power": "Aquatic abilities, Communication with sea creatures",
+    "imgUrl": "https://i.pinimg.com/564x/ea/92/bf/ea92bf33331bfb7dc936ff10803c33ef.jpg",
+    "description": "Rey de Atlantis y dominador de los océanos, Aquaman tiene la habilidad de comunicarse con las criaturas marinas y sobrevivir bajo el agua. Utiliza su tridente para controlar las aguas y sus habitantes."
+  },
+  {
+    "id": 12,
+    "name": "Black Panther",
+    "real_name": "T'Challa",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "02/16/1982",
+    "power": "Enhanced strength, Agility, Intellect",
+    "imgUrl": "https://i.pinimg.com/564x/45/1e/af/451eafbb79a50259b808c485f22bd85d.jpg",
+    "description": "Rey de Wakanda, Black Panther posee habilidades mejoradas gracias a un ritual sagrado y al metal vibranium. Es un guerrero y estratega excepcional, protegiendo su nación con tecnología avanzada."
+  },
+  {
+    "id": 13,
+    "name": "Doctor Strange",
+    "real_name": "Stephen Strange",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "11/18/1930",
+    "power": "Sorcery, Reality manipulation",
+    "imgUrl": "https://i.pinimg.com/564x/d9/f0/d6/d9f0d6c3320045285d56df56577de59d.jpg",
+    "description": "Antiguo cirujano, ahora Hechicero Supremo, Doctor Strange utiliza las artes místicas para proteger la Tierra de amenazas mágicas y extradimensionales."
+  },
+  {
+    "id": 14,
+    "name": "Green Lantern",
+    "real_name": "Hal Jordan",
+    "gender": "Masculino",
+    "race": "Humano",
+    "birth_date": "02/20/1940",
+    "power": "Energy manipulation, Flight",
+    "imgUrl": "https://i.pinimg.com/564x/6a/90/05/6a90053af7718a89328217b6af98013b.jpg",
+    "description": "Piloto de pruebas que se convirtió en miembro del Green Lantern Corps. Hal Jordan usa un anillo de poder que le permite crear construcciones de energía sólida y volar en el espacio."
+  },
+  {
+    "id": 15,
+    "name": "Cyclops",
+    "real_name": "Scott Summers",
+    "gender": "Masculino",
+    "race": "Mutante",
+    "birth_date": "08/01/1960",
+    "power": "Optic blast",
+    "imgUrl": "https://i.pinimg.com/564x/e3/c8/8d/e3c88dfa83cec25473074deb1a0d440e.jpg",
+    "description": "Líder de los X-Men, Cyclops emite poderosos rayos de su vista que no puede controlar sin la ayuda de gafas especiales. Su liderazgo y táctica son cruciales para el equipo."
+  },
+  {
+    "id": 16,
+    "name": "Jean Grey",
+    "real_name": "Jean Grey",
+    "gender": "Femenino",
+    "race": "Mutante",
+    "birth_date": "10/01/1965",
+    "power": "Telepathy, Telekinesis",
+    "imgUrl": "https://i.pinimg.com/564x/28/f8/41/28f8417a703f295e73a89d9fde64a71d.jpg",
+    "description": "Miembro de los X-Men con habilidades telepáticas y telequinéticas, Jean Grey es una de las mutantes más poderosas. Su conexión con la entidad Fénix aumenta sus poderes a niveles casi ilimitados."
+  },
+  {
+    "id": 17,
+    "name": "Wolverine",
+    "real_name": "Logan",
+    "gender": "Masculino",
+    "race": "Mutante",
+    "birth_date": "Unknown",
+    "power": "Regeneration, Adamantium skeleton",
+    "imgUrl": "https://i.pinimg.com/564x/80/6c/ec/806cec5c569e3be4207c32a2afba79aa.jpg",
+    "description": "Conocido por su habilidad de regeneración rápida, esqueleto de adamantium y garras retráctiles, Wolverine es uno de los X-Men más feroces y resistentes."
+  },
+  {
+    "id": 18,
+    "name": "Magneto",
+    "real_name": "Erik Lehnsherr",
+    "gender": "Masculino",
+    "race": "Mutante",
+    "birth_date": "01/30/1930",
+    "power": "Magnetic fields manipulation",
+    "imgUrl": "https://i.pinimg.com/564x/07/a4/5b/07a45bb8d39a992cf5c233c3f34c3d79.jpg",
+    "description": "Magneto posee la habilidad de manipular campos magnéticos y metales a su voluntad. A menudo en conflicto con los X-Men, lucha por la supervivencia y supremacía de los mutantes sobre los humanos."
+  },
+  {
+    "id": 19,
+    "name": "Deadpool",
+    "real_name": "Wade Wilson",
+    "gender": "Masculino",
+    "race": "Humano mutado",
+    "birth_date": "09/04/1975",
+    "power": "Regeneration, Breaking the fourth wall",
+    "imgUrl": "https://i.pinimg.com/564x/78/3d/88/783d881a58b8ff54b0d48669e30871f6.jpg",
+    "description": "Mercenario bocazas con habilidades de regeneración avanzada, Deadpool es conocido por su humor irreverente y capacidad para romper la cuarta pared."
+  },
+  {
+    "id": 20,
+    "name": "Nightcrawler",
+    "real_name": "Kurt Wagner",
+    "gender": "Masculino",
+    "race": "Mutante",
+    "birth_date": "11/11/1959",
+    "power": "Teleportation",
+    "imgUrl": "https://i.pinimg.com/564x/f4/b1/45/f4b1451a3b4e5ca50a6aadc59e2e36aa.jpg",
+    "description": "Miembro de los X-Men con la habilidad de teleportarse a cortas distancias, Nightcrawler es también un acróbata consumado y un hombre de profunda fe religiosa."
+  }
+]

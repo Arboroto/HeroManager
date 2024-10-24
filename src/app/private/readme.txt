@@ -1,0 +1,1 @@
+This would be a hypothetical module to develop an intranet/private user area. For example, if we had a login system, we would work to develop everything related to a private user area here.

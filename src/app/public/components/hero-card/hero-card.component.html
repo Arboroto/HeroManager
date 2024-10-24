@@ -1,0 +1,22 @@
+<mat-card class="hero">
+    <mat-card-header>
+        <div class="flex1">
+            <mat-card-title><p>{{hero.name}}</p></mat-card-title>
+            <mat-card-subtitle><p>{{hero.power}}</p></mat-card-subtitle>
+        </div>
+        <mat-card-actions>
+            <button (click)="editHero(hero)" mat-fab color="primary" aria-label="edit button">
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button (click)="openDialog()" mat-fab color="secondary" aria-label="delete button">
+                <mat-icon>delete</mat-icon>
+            </button>
+          </mat-card-actions>
+    </mat-card-header>
+    <img mat-card-image [src]="hero.imgUrl" alt="Imagen del héroe" loading="lazy">
+    <mat-card-content class="hero-data">
+        <article>
+            <p>{{hero.description}}</p>
+        </article>
+    </mat-card-content>
+</mat-card>
