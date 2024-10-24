@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from './core/shared/components/footer/footer.component';
 import { HeaderComponent } from './core/shared/components/header/header.component';
+import { CustomLoaderComponent } from './core/shared/components/custom-loader/custom-loader.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,9 @@ import { HeaderComponent } from './core/shared/components/header/header.componen
     CommonModule,
     RouterOutlet,
     FooterComponent,
-    HeaderComponent],
+    HeaderComponent,
+    CustomLoaderComponent
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
