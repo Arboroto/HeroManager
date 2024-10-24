@@ -4,7 +4,6 @@ import { ToastService } from '../../../core/shared/services/toast.service';
 import { CommonModule } from '@angular/common'; 
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { CustomLoaderComponent } from '../../../core/shared/components/custom-loader/custom-loader.component';
 import { CustomLoaderService } from '../../../core/shared/services/custom-loader.service';
 
 @Component({
