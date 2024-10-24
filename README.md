@@ -4,8 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project is a Single Page Application (SPA) that allows managing a registry of superheroes.
 
-Developer notes This project is a Single Page Application (SPA) that allows managing a registry of superheroes. It lists features and others about it:
-
+It lists features and others about it:
 - Scalable structure. 
 - Home page. 
 - Filter+list page. 
