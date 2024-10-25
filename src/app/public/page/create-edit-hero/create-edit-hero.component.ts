@@ -70,7 +70,6 @@ export class CreateEditHeroComponent {
       imgUrl: [this.heroInfo ? this.heroInfo.imgUrl : ''],
       description: [this.heroInfo ? this.heroInfo.description : '', Validators.required]
     });
-    console.log(this.heroForm)
   }
 
   updateForm(): void {

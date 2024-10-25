@@ -27,7 +27,11 @@
       <mat-form-field>
         <textarea matInput formControlName="description" placeholder="Descripción"></textarea>
       </mat-form-field>
-      <button mat-raised-button color="primary" type="submit" >Enviar</button><!-- [disabled]="!heroForm.valid" -->
+      <button 
+        mat-raised-button 
+        color="primary" 
+        type="submit"
+        [disabled]="!heroForm.valid">Enviar</button>
     </form>    
 </div>
 
